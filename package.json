@@ -2,10 +2,11 @@
   "name": "sapui5-walkthrough",
   "description": "SAPUI5 Walkthrough",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
     "proxy": "node proxy.js",
-    "start": "ui5 serve -o index.html"
+    "build": "ui5 build",
+    "start": "ui5 serve -o index.html",
+    "test": "ui5 serve -o ./test/mockServer.html"
   },
   "keywords": [],
   "author": "Mikalai Kazlou",
