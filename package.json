@@ -4,12 +4,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "proxy": "node proxy.js",
+    "start": "ui5 serve -o index.html"
   },
   "keywords": [],
   "author": "Mikalai Kazlou",
   "license": "ISC",
   "devDependencies": {
-    "@ui5/cli": "^3.0.5"
+    "@ui5/cli": "^3.0.5",
+    "cors-anywhere": "^0.4.4"
   }
 }
