@@ -5,8 +5,9 @@
   "scripts": {
     "proxy": "node proxy.js",
     "build": "ui5 build",
-    "start": "ui5 serve -o index.html",
-    "test": "ui5 serve -o ./test/mockServer.html"
+    "start": "ui5 serve -o ./index.html",
+    "qunit": "ui5 serve -o ./test/unit/unitTests.qunit.html",
+    "local": "ui5 serve -o ./test/mockServer.html"
   },
   "keywords": [],
   "author": "Mikalai Kazlou",
