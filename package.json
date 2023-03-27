@@ -3,11 +3,12 @@
   "description": "SAPUI5 Walkthrough",
   "version": "1.0.0",
   "scripts": {
-    "proxy": "node proxy.js",
     "build": "ui5 build",
     "start": "ui5 serve -o ./index.html",
-    "qunit": "ui5 serve -o ./test/unit/unitTests.qunit.html",
-    "local": "ui5 serve -o ./test/mockServer.html"
+    "local": "ui5 serve -o ./test/mockServer.html",
+    "utest": "ui5 serve -o ./test/unit/unitTests.qunit.html",
+    "itest": "ui5 serve -o ./test/integration/opaTests.qunit.html",
+    "proxy": "node proxy.js"
   },
   "keywords": [],
   "author": "Mikalai Kazlou",
