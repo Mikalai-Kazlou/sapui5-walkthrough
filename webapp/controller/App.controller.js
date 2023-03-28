@@ -3,5 +3,9 @@ sap.ui.define([
   "sap/m/MessageToast"
 ], function (Controller) {
   "use strict";
-  return Controller.extend("sap.ui.demo.walkthrough.controller.App", {});
+  return Controller.extend("sap.ui.demo.walkthrough.controller.App", {
+    onInit: function () {
+      this.getView().addStyleClass(this.getOwnerComponent().getContentDensityClass());
+    }
+  });
 });
