@@ -60,4 +60,8 @@ typings/
 # Misc
 .DS_Store
 
+# Bundle
 dist/
+
+#VSCode
+.vscode
